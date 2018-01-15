@@ -3,7 +3,7 @@
   "description": "Pannellum is a lightweight, free, and open source panorama viewer for the web.",
   "version": "2.3.2",
   "bugs": {
-    "url": "https://github.com/mpetroff/pannellum/issues"
+    "url": "https://github.com/ilaripih/pannellum/issues"
   },
   "author": {
     "name": "Matthew Petroff",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpetroff/pannellum.git"
+    "url": "https://github.com/ilaripih/pannellum.git"
   },
   "license": "MIT",
   "homepage": "https://pannellum.org/",
