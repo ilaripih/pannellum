@@ -213,7 +213,7 @@ function Renderer(container) {
             };
             for (s = 0; s < 6; s++) {
                 var faceImg = new Image();
-                faceImg.crossOrigin = 'anonymous';
+                faceImg.crossOrigin = 'use-credentials';
                 faceImg.side = s;
                 faceImg.onload = onLoad;
                 if (imageType == 'multires') {
@@ -1020,7 +1020,7 @@ function Renderer(container) {
             var self = this;
             this.texture = this.callback = null;
             this.image = new Image();
-            this.image.crossOrigin = 'anonymous';
+            this.image.crossOrigin = 'use-credentials';
             this.image.addEventListener('load', function() {
                 processLoadedTexture(self.image, self.texture);
                 self.callback(self.texture);
